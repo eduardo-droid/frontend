@@ -1,0 +1,21 @@
+h1{
+    color: red;
+}
+
+h2{
+    color: blue;
+}
+
+p{
+    color: #46484c;
+ }
+
+button{
+    color: #8b8b8bcc;
+    background-color: #025157;
+}
+
+body{
+    background-color: #fffbf7;
+    background-image: url('https://lamovidaemprendedora.com/wp-content/uploads/job-manager-uploads/job_logo/2018/09/bedu-logo.png');
+}

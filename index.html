@@ -4,22 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Matcha</title>
-    <style>
-        h1{
-        color: red;
-    }
-    p{
-        color: #46484c;
-    }
-    button{
-        color: #8b8b8bcc;
-        background-color: #025157;
-    }
-    body{
-        background-color: #fffbf7;
-    }
-    </style>
 </head>
 <body>
     <h1> Titulo 1</h1>
@@ -29,24 +15,33 @@
     <h5>Titulo 5</h5>
     <h6>Titulo 6</h6>
     <p>
-    <b>ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet sem in elit lobortis consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</b> 
+    <b>ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet sem in elit lobortis consectetur.</b> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
     </p>
 
     <form>
         <input type="email">
-        <button type="submit">Enviar</button>
+        <button type="submit">Enviar &rarr;</button>
     </form>
-
+    
+    <br>
     <form>
         <label for="name">Nombre</label>
         <input type="text" id="name" name="fname"><br><br>
+        <label for="name">Apellido</label>
         <input type="text" id="lastname" name="lastname" placeholder="Apellido"><br><br>
+        <label for="name">Edad</label>
         <input type="number" id="age" name="age" placeholder="Edad" min="18" max="35"><br><br>
-        <input type="email" id="email" name="email" placeholder="Correo"><br><br>
+        <label for="name">Correo</label>
+        <input type="email"  id="email" name="email" placeholder="Correo" required><br><br>
+        <label for="name">Contraseña</label>
         <input type="password" id="password" name="password" placeholder="Contraseña"><br><br>
         <button type="submit">Enviar</button>
     </form>
 
+    <!-- ./ para ver el archivo en la carpeta
+    ../ ir para atras  -->
+    <br>
     <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" alt="capterra">
+    
 </body>
 </html>
