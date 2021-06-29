@@ -17,7 +17,12 @@ p{
 
 body{
     background-color: #fffbf7;
-    /*background-image: url('https://lamovidaemprendedora.com/wp-content/uploads/job-manager-uploads/job_logo/2018/09/bedu-logo.png');*/
+    background-image: url('https://pro2-bar-s3-cdn-cf.myportfolio.com/67cf45ca-338d-4fd0-943b-32d96162976a/b7b52d14-b827-4c3a-906f-3b94fa13f35f_rw_1920.png');
+} 
+
+main {
+  margin-top: 285px;
+  text-align: center;
 }
 
 .header {
@@ -427,4 +432,79 @@ li {
     text-decoration: none;
   }
 
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+body{
+  background-color: #9df0e5;
+  /*background-image: url('https://lamovidaemprendedora.com/wp-content/uploads/job-manager-uploads/job_logo/2018/09/bedu-logo.png');*/
+} 
+  .navbar,
+  .actions {
+    display: none;
+  }
+
+  main {
+    margin-top: 130px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .banner > img {
+    width: 100%;
+  }
+
+  .promo {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .explanatory-video > video {
+    width: 100%;
+  }
+
+  .formulario > form {
+    flex-direction: column;
+  }
+
+  .formulario > form > div {
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .formulario > form > div > input {
+    width: 65%;
+  }
+
+  .features {
+    grid-template: repeat(4, 1fr) / 1fr;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .feature-image {
+    display: none;
+  }
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+
+} 
   
