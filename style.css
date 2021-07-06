@@ -55,11 +55,11 @@ li {
     height: 100%;
 }
 
-.navbar{
+/* .navbar{
     width: 70%;
     text-align: center;
     color: #025157;
-}
+} */
 
 .menu-item {
     display: inline;
@@ -431,6 +431,7 @@ li {
     font-weight: 600;
     text-decoration: none;
   }
+
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
